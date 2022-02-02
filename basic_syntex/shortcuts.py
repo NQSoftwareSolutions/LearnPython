@@ -40,3 +40,9 @@ b /= 10
 """
 print("Division A = " + str(a) + " & B = " + str(b))
 
+# Todo print method short cut
+"""
+    we can multiply any string available in print function
+"""
+star = "*"
+print(star * 100)  # this will print 100 stars
