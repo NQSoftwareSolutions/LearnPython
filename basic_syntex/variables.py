@@ -16,6 +16,8 @@ print(kw.kwlist)
     Do not use special characters in variable name
 """
 # Todo assign values to variables in one line (not recommended)
+print("***********************")
+print("Assign one value to multiple references in single line")
 a = b = c = d = "Qayoom"
 print(a)
 print(b)
@@ -28,6 +30,8 @@ print(d)
 """
 # Todo other of assigning different values to multiple variables in one
 #  line (not recommended)
+print("***********************")
+print("Assign multiple values to multiple references in single line")
 a, b, c, d = 10, 20, 30, 40
 print(a)
 print(b)
@@ -42,6 +46,8 @@ print(d)
 """
 
 # Todo understanding Reference count, references & variables
+print("***********************")
+print("understanding Reference count, references & variables")
 a = "Qayoom"
 b = "Qayoom"
 
@@ -65,6 +71,9 @@ object to garbage collector & free up space.
 """
 
 # Todo using of equality operator
+print("***********************")
+print("using of equality operator & is as equality operator")
+
 a = 786
 b = a
 
@@ -82,10 +91,12 @@ print(a)
 print(b)
 
 # Todo assigning value of one variable to get other type of object
+print("***********************")
+print("assigning value of one variable to get other type of object")
 e = a == b
 print(e)
 e = a is b
 print(e)
 """
-Now e is boolean object reference after getting 
+    Now e is boolean object reference after getting 
 """
