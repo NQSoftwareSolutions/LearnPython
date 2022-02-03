@@ -88,6 +88,9 @@ print("String Circle Behave (0 to 2nd last) : " + s[:-1])
 """
 print("Split : " + str(s.split()))
 
-
-
+# Todo Sort string alphabetically
+print("Original %s \n & Sorted (alphabetically) %s" % (s, sorted(s)))
+"""
+    sorted function will sort string & convert it to list
+"""
 

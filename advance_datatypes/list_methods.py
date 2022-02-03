@@ -59,3 +59,6 @@ print("Slicing (last) %s" % languages[-1])
 # Todo Sort list alphabetically
 print("Original list is %s \n& Sorted list is (alphabetically) %s" % (languages, sorted(languages)))
 
+# Todo Sort number (low to high)
+numbers = [1, 3, 4, 5, 23, 5, 3, 2, 5, 2, 4]
+print("Original list is %s \n& Sorted list is (low to high) %s" % (numbers, sorted(numbers)))
