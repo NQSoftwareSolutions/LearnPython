@@ -7,35 +7,38 @@
 
 s = "Abdul Qayoom Jat"
 
-# Todo Accessing characters in string
+# Todo Accessing characters in string with index
 first = s[0]
 """
     Index always starts from zero
 """
 print("Character : " + first)
 
-# Todo len(string)
+# Todo Get length of list
 """
     len will help to identify length of string
 """
 print("Get Length : " + str(len(s)))
-# Todo upper(string)
+
+# Todo Do uppeer case to specified string
 """
     upper will convert string to upper case
 """
 print("To Upper case : " + s.upper())
-# Todo lower(string)
+
+# Todo do lower case to specified string
 """
     lower will convert string to lower case
 """
 print("To Lower case : " + s.lower())
-# Todo str(any non string)
+
+# Todo convert any data type to string
 """
     str converts any of non string value to string
 """
 print("Non String to String : " + str(len(s)))
 
-# Todo Replace (old pattern, new pattern, no of instances))
+# Todo Replace specified pattern with other one
 """
     Replace methods will replace pattern available in string value by new specified pattern
 """
@@ -43,7 +46,7 @@ pattern = "1abc2abc3abc4acb"
 print("Pattern " + pattern + " Replace by " + pattern.replace("abc", "xyz"))
 print("Pattern " + pattern + " Replace by " + pattern.replace("abc", "xyz", 2))
 
-# Todo Sub-String method
+# Todo Subtract list
 sub = s[6:12]
 """
     This will start from index 6 & end at index 11
@@ -72,7 +75,7 @@ print("String Circle Behave (last) : " + s[-1])
 print("String Circle Behave (2nd last) : " + s[-2])
 print("String Circle Behave (0 to 2nd last) : " + s[:-1])
 
-# Todo split (string)
+# Todo Get list from string
 """
     Python String split()
         The split() method splits a string into a list. 
