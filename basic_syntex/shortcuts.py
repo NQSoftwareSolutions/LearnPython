@@ -40,9 +40,27 @@ b /= 10
 """
 print("Division A = " + str(a) + " & B = " + str(b))
 
+# Todo create a list of numbers
+print("Range Numbers: " + str(range(10, 100)))
+"""
+    Above method is generating numbers 
+    but not showing so we need to type cast it in list
+    & ending number is exclusive
+"""
+print("Range Numbers: " + str(list(range(10, 100))))
+
 # Todo print method short cut
 """
     we can multiply any string available in print function
 """
 star = "*"
 print(star * 100)  # this will print 100 stars
+
+# Todo print results of multiple print statement on one line
+a = 0
+while a < 10:
+    print(a, end=", ")
+    a += 1
+    """
+        end is a positional variable
+    """
